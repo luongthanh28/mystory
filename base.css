@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 14px Arial;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.7;
+}
+.clearfix{
+    clear: both;
+}
+.full-container, .wrapper, .container{
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+}
+.wrapper{
+    width: 1140px;
+}
+.full-container{
+    width: 100%;
+}
+.container{
+    width: 940px;
+}
+.col-4, .col-3{
+    float:left;
+    position: relative;
+}
+.col-3{
+    width: calc(100%/3);
+}
+.col-4{
+    width: calc(100%/4);
+}
+.logo, .menu{
+    float: left;
+    height: 65px;
+}
+.logo{
+    width: 200px;
+    background-image: url(https://www.saokim.com.vn/blog/wp-content/uploads/2013/02/Bo-Suu-Tap-Logo-danh-cho-Tinh-Yeu-Va-Valentine-1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu{
+    width: 940px;
+}
+.menu ul{
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+.menu li{
+    list-style: none;
+    display: inline table;
+    padding: 2px 20px;
+    font-size: 1.5rem;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color:red;
+}
+.banner{
+    height: 420px;
+    background-image: url(https://www.shutterstock.com/image-vector/explore-our-captivating-valentines-day-600nw-2410423313.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.product{
+    margin-top: 10px;
+}
+.product , .col-4{
+    height: 180px;
+}
+.image{
+    width: 100%;
+    height: 185px;
+}
+.product-title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+
+}
+.about{
+    margin-top: 10px;
+}
+.about, .col-3{
+    height: 350px;
+}
+.about .col-3::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+    background-color: rgba(64, 64, 64,0.1);
+}
+.about-image{
+    width: 100%;
+    height: 330px;
+}
+.about .title{
+    font-size: 2.3rem;
+    padding: 1px 0;
+    text-align: center;
+    color: red;
+}
+.about-title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(221, 143, 188);
+    font-weight: bold;
+}
+.footer{
+    background-color: pink;
+}
+.footer ul{
+    margin: 10px 0;
+    padding: 20px 5px 20px 0;
+}
+.footer li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 1.2rem;
+    
+}
+.footer a{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.footer, .col-3{
+    min-height: 100px;
+}
